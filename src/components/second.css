@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 .second {
@@ -113,6 +114,11 @@
 
 .calculate-control{
     cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.calculate-control:active {
+  transform: scale(0.9);
 }
 
 .bottom-control{

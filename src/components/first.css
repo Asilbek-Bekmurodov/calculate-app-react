@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 
@@ -73,6 +74,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
+}
+
+.div:active {
+    transform: scale(.9);
 }
 
 .bg{
